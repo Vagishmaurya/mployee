@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+}
+
+.card-container {
+  /* Adjust spacing between sidebar and card */
+  width: 82vw;
+}

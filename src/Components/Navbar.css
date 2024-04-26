@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid #E8E7EC
+  
+}
+
+/* Company Name */
+.company-name {
+  font-size: 1.5rem;
+  width: 153px;
+  height: 28px;
+}
+
+/* Menu styles */
+.menu {
+  list-style-type: none;
+  display: flex;
+  left: 689px;
+  gap:22px;
+}
+
+.menu li {
+  margin-right: 15px;
+  left: 689px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  width: 141px; /* Adjusted width */
+}
+
+.menu li.active a {
+  background-color: rgb(254, 224, 140);
+  color: rgb(236, 71, 30);
+  border-radius: 20px;
+  padding: 3px;
+}
+
+/* Profile styles */
+.profile {
+  display: flex;
+  align-items: center;
+  left: -1442px; 
+  width: 134px; /* Adjusted width */
+  height: 43px;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  margin-right: 5px;
+}
+
+.profile-name {
+  font-size: 1rem;
+  gap: 10px;
+}
